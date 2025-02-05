@@ -1,0 +1,1 @@
+This repository demonstrates a common misconception in Ruby regarding assignment to getter methods.  The code in `bug.rb` shows that directly assigning a value to a getter does not modify the internal instance variable. The solution in `bugSolution.rb` shows the correct way to modify the instance variable using a setter method or by directly assigning to the instance variable.
